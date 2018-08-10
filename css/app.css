@@ -1,0 +1,44 @@
+body{
+    font-family: 'Slabo 27px', serif;
+}
+header{
+    background-color: #0099ff;
+    color:white;
+}
+main{
+    margin-bottom: 2rem;
+}
+label{
+    text-align: right;
+}
+textarea{
+    resize: none;
+    height: 120px;
+}
+@media only screen and (max-width:768px){
+    label{
+        text-align: left !important;
+    }
+}
+#description{
+    margin-bottom: 0;
+}
+#survey-form{
+    padding-top: 2rem;
+}
+#react-icon{
+    color:#53C1DE;
+}
+#vue-icon{
+    color:#41B883;
+}
+#angular-icon{
+    color:#C3002F;
+}
+#submit{
+    background-color:#0099ff;
+    border-color:#0099ff;
+}
+#submit:focus{
+    border-color:#0099ff;
+}
